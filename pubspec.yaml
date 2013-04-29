@@ -1,9 +1,9 @@
 name: god_engine
-version: 0.1.0-alpha.1
+version: 0.1.0
 description: >
   An experimental virtual reality engine for the web.
 author: Tommi Enenkel <tommi.enenkel@gmail.com>
 homepage: https://github.com/BitAlchemists/god_engine
 dependencies:
-  vector_math:
-    git: https://github.com/johnmccutchan/DartVectorMath.git
+  vector_math: 1.1.0
+  game_loop: 0.8.0

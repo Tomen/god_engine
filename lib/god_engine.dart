@@ -3,7 +3,7 @@ library god_engine;
 import 'dart:math' as Math;
 import 'dart:html';
 import 'package:vector_math/vector_math.dart';
-
+import 'package:game_loop/game_loop_html.dart';
 
 part 'src/core/entity.dart';
 part 'src/core/scene.dart';
