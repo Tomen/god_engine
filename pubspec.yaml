@@ -1,7 +1,7 @@
 name: god_engine
 version: 0.1.0
 description: >
-  An experimental virtual reality engine for the web.
+  An experimental virtual reality engine for the web. A sample game can be found at https://github.com/BitAlchemists/AsteroidRacers
 author: Tommi Enenkel <tommi.enenkel@gmail.com>
 homepage: https://github.com/BitAlchemists/god_engine
 dependencies:
