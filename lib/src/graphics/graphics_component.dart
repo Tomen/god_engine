@@ -7,9 +7,9 @@ class GraphicsComponent extends Component {
   
   GraphicsComponent.triangle() {
     vertices = new List<vec3>();
-    vertices.add(new vec3(-5, -5, 0));
-    vertices.add(new vec3(0, 10, 0));
-    vertices.add(new vec3(5, -5, 0));
+    vertices.add(new vec3(-5.0, -5.0, 0.0));
+    vertices.add(new vec3(0.0, 10.0, 0.0));
+    vertices.add(new vec3(5.0, -5.0, 0.0));
     color = "green";
   }
   
@@ -28,7 +28,7 @@ class GraphicsComponent extends Component {
       num angle = (i.toDouble() / numVertices.toDouble());
       num radius = random.nextDouble() * (outerRadius - innerRadius) + innerRadius;
       
-      vec3 vector = new vec3(Math.cos(angle * Math.PI*2) * radius, Math.sin(angle * Math.PI*2) * radius, 0);
+      vec3 vector = new vec3(Math.cos(angle * Math.PI*2) * radius, Math.sin(angle * Math.PI*2) * radius, 0.0);
       vertices.add(vector);
     }
     color = "yellow";

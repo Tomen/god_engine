@@ -23,7 +23,7 @@ class SceneRenderer {
    }
 
    void drawMovables() {
-     vec3 center = new vec3(width / 2, height / 2, 0) - camera.entity.position; 
+     vec3 center = new vec3(width / 2, height / 2, 0.0) - camera.entity.position; 
      
      scene.entities.forEach((Entity entity) {
        entity.components.forEach( (Component component) {
